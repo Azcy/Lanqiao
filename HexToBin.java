@@ -1,5 +1,19 @@
 import java.lang.StringBuffer;
 import java.util.Scanner;
+
+/*
+问题描述
+　　给定n个十六进制正整数，输出它们对应的八进制数。
+
+输入格式
+　　输入的第一行为一个正整数n （1<=n<=10）。
+　　接下来n行，每行一个由0~9、大写字母A~F组成的字符串，表示要转换的十六进制正整数，每个十六进制数长度不超过100000。
+
+输出格式
+　　输出n行，每行为输入对应的八进制正整数。
+
+先把十六进制转成二进制，每位十六进制正好转成4位二进制，然后再将二进制转成八进制，每三个二进制转成一个八进制。
+*/
 public class HexToBin{
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
