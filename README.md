@@ -15,3 +15,6 @@
 #BASIC-11 十六进制转十进制 HexToDec.java
 #BASIC-12 十六进制转八进制 HexToOct.java
 #BASIC-13 数列排序 QuickSort.java & BubbleSort.java
+#BASIC-14 时间转换 TimeFormat.java
+#BASIC-15 字符串对比 JudgeString.java
+#BASIC-16 分解质因数 PrimeResolve.java
