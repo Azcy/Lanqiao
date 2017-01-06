@@ -33,7 +33,7 @@ public class Matrix{
 				matrix[i][j] = in.nextInt();//初始化矩阵
 			}
 		}
-	    int[][] newMatrix = Matrix.multiply(matrix,n,m);//调用矩阵n次方方法
+	    int[][] newMatrix = Matrix.multiply(matrix,n,m);//调用n阶矩阵m次方方法
 		Matrix.printMatrix(newMatrix,n);//输出矩阵
 	}
     
