@@ -18,7 +18,7 @@ public class BubbleSort
 
 	public void bubbleSort(int[] data,int n){
 		int temp;
-		for(int i=0;i<n-2;i++){
+		for(int i=0;i<n-1;i++){
 			for(int j=n-1;j>i;j--){
 				if(data[j]<data[j-1]){
 					temp = data[j];
